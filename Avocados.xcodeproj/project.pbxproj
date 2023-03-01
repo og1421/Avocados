@@ -11,6 +11,7 @@
 		8544B7AE29AEB78A00F8C794 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544B7AD29AEB78A00F8C794 /* RipeningStagesView.swift */; };
 		8544B7B029AEB7A200F8C794 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544B7AF29AEB7A200F8C794 /* SettingsView.swift */; };
 		8544B7B229AEB7B900F8C794 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544B7B129AEB7B900F8C794 /* AppView.swift */; };
+		857D4AD529AFB2B400C2645F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857D4AD429AFB2B400C2645F /* HeaderView.swift */; };
 		8595915E29AD7F0A0068F743 /* AvocadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595915D29AD7F0A0068F743 /* AvocadosApp.swift */; };
 		8595916029AD7F0A0068F743 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595915F29AD7F0A0068F743 /* ContentView.swift */; };
 		8595916229AD7F0C0068F743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8595916129AD7F0C0068F743 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		8544B7AD29AEB78A00F8C794 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		8544B7AF29AEB7A200F8C794 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		8544B7B129AEB7B900F8C794 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		857D4AD429AFB2B400C2645F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		8595915A29AD7F0A0068F743 /* Avocados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avocados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8595915D29AD7F0A0068F743 /* AvocadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosApp.swift; sourceTree = "<group>"; };
 		8595915F29AD7F0A0068F743 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				8544B7AD29AEB78A00F8C794 /* RipeningStagesView.swift */,
 				8544B7AF29AEB7A200F8C794 /* SettingsView.swift */,
 				8544B7B129AEB7B900F8C794 /* AppView.swift */,
+				857D4AD429AFB2B400C2645F /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				8544B7AE29AEB78A00F8C794 /* RipeningStagesView.swift in Sources */,
 				8595916029AD7F0A0068F743 /* ContentView.swift in Sources */,
 				8595915E29AD7F0A0068F743 /* AvocadosApp.swift in Sources */,
+				857D4AD529AFB2B400C2645F /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
