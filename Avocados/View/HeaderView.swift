@@ -42,14 +42,14 @@ struct HeaderView: View {
                         .font(.footnote)
                         .lineLimit(2)
                         .multilineTextAlignment(.leading)
-                        .foregroundColor(.white)
+                        .foregroundColor(Color.white)
                         .shadow(radius: 3)
                     
                 }//:VSTACK
                 .padding(.vertical, 0)
                 .padding(.horizontal, 20)
                 .frame(width: 281, height: 105)
-                .background(Color("ColorBackTransparentLight"))
+                .background(Color("ColorBlackTransparentLight"))
             }//:HSTACK
             .frame(width: 285, height: 105, alignment: .center)
             .offset(x: -66, y: showHeadline ? 75 : 220)

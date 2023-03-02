@@ -24,14 +24,20 @@ struct ContentView: View {
                     }//:HSTACK
                 }//: SCROLL
                 
+                //MARK: - Dishes
+                Text("Avocados dishes")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                
+                DishesViews()
+                    .frame(maxWidth: 640)
+                
                 //MARK: - FOOTER
                 VStack(alignment: .center, spacing: 20 ) {
                     Text("All about avocados")
-                        .font(.system(.title, design: .serif))
                         .fontWeight(.bold)
-                        .foregroundColor(Color("ColorGreenAdaptative"))
-                        .padding(8)
-                    
+                        .modifier(TitleModifier())
+                                            
                     Text("Everything you want to know about avocados but were to afraid to ask")
                         .font(.system(.body, design: .serif))
                         .multilineTextAlignment(.center)
@@ -47,6 +53,16 @@ struct ContentView: View {
         }//:SCROLL
         .edgesIgnoringSafeArea(.all)
         .padding(0)
+    }
+}
+
+struct TitleModifier: ViewModifier{
+    func body(content: Content) -> some View {
+        content
+            .font(.system(.title, design: .serif))
+            .foregroundColor(Color("ColorGreenAdaptative"))
+            .padding(8)
+
     }
 }
 

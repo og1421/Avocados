@@ -18,6 +18,7 @@
 		8595916029AD7F0A0068F743 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8595915F29AD7F0A0068F743 /* ContentView.swift */; };
 		8595916229AD7F0C0068F743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8595916129AD7F0C0068F743 /* Assets.xcassets */; };
 		8595916529AD7F0C0068F743 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8595916429AD7F0C0068F743 /* Preview Assets.xcassets */; };
+		85FCC8E029B168E1000BE95C /* DishesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FCC8DF29B168E1000BE95C /* DishesViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		8595915F29AD7F0A0068F743 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8595916129AD7F0C0068F743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8595916429AD7F0C0068F743 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85FCC8DF29B168E1000BE95C /* DishesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				8544B7AF29AEB7A200F8C794 /* SettingsView.swift */,
 				8544B7B129AEB7B900F8C794 /* AppView.swift */,
 				857D4AD429AFB2B400C2645F /* HeaderView.swift */,
+				85FCC8DF29B168E1000BE95C /* DishesViews.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				8544B7AE29AEB78A00F8C794 /* RipeningStagesView.swift in Sources */,
 				8595916029AD7F0A0068F743 /* ContentView.swift in Sources */,
 				8595915E29AD7F0A0068F743 /* AvocadosApp.swift in Sources */,
+				85FCC8E029B168E1000BE95C /* DishesViews.swift in Sources */,
 				857D4AD729B0172B00C2645F /* HeaderModel.swift in Sources */,
 				857D4AD929B0178400C2645F /* HeaderData.swift in Sources */,
 				857D4AD529AFB2B400C2645F /* HeaderView.swift in Sources */,
