@@ -13,6 +13,9 @@
 		8544B7AE29AEB78A00F8C794 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544B7AD29AEB78A00F8C794 /* RipeningStagesView.swift */; };
 		8544B7B029AEB7A200F8C794 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544B7AF29AEB7A200F8C794 /* SettingsView.swift */; };
 		8544B7B229AEB7B900F8C794 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544B7B129AEB7B900F8C794 /* AppView.swift */; };
+		856B0A3E29B3804E00554DEA /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856B0A3D29B3804E00554DEA /* RecipeModel.swift */; };
+		856B0A4029B380C200554DEA /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856B0A3F29B380C200554DEA /* RecipeData.swift */; };
+		856B0A4229B3815500554DEA /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856B0A4129B3815500554DEA /* RecipeCardView.swift */; };
 		857D4AD529AFB2B400C2645F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857D4AD429AFB2B400C2645F /* HeaderView.swift */; };
 		857D4AD729B0172B00C2645F /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857D4AD629B0172B00C2645F /* HeaderModel.swift */; };
 		857D4AD929B0178400C2645F /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857D4AD829B0178400C2645F /* HeaderData.swift */; };
@@ -31,6 +34,9 @@
 		8544B7AD29AEB78A00F8C794 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		8544B7AF29AEB7A200F8C794 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		8544B7B129AEB7B900F8C794 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		856B0A3D29B3804E00554DEA /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		856B0A3F29B380C200554DEA /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		856B0A4129B3815500554DEA /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 		857D4AD429AFB2B400C2645F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		857D4AD629B0172B00C2645F /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		857D4AD829B0178400C2645F /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
@@ -59,6 +65,7 @@
 			children = (
 				857D4AD829B0178400C2645F /* HeaderData.swift */,
 				8513FB5029B2C44B00CDC0B8 /* FactsData.swift */,
+				856B0A3F29B380C200554DEA /* RecipeData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -68,6 +75,7 @@
 			children = (
 				857D4AD629B0172B00C2645F /* HeaderModel.swift */,
 				8513FB5229B2C4D000CDC0B8 /* FactModel.swift */,
+				856B0A3D29B3804E00554DEA /* RecipeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -83,6 +91,7 @@
 				857D4AD429AFB2B400C2645F /* HeaderView.swift */,
 				85FCC8DF29B168E1000BE95C /* DishesViews.swift */,
 				85FCC8E129B1707F000BE95C /* FactsView.swift */,
+				856B0A4129B3815500554DEA /* RecipeCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,10 +210,13 @@
 				8544B7AE29AEB78A00F8C794 /* RipeningStagesView.swift in Sources */,
 				8595916029AD7F0A0068F743 /* ContentView.swift in Sources */,
 				8595915E29AD7F0A0068F743 /* AvocadosApp.swift in Sources */,
+				856B0A3E29B3804E00554DEA /* RecipeModel.swift in Sources */,
 				85FCC8E029B168E1000BE95C /* DishesViews.swift in Sources */,
 				857D4AD729B0172B00C2645F /* HeaderModel.swift in Sources */,
 				857D4AD929B0178400C2645F /* HeaderData.swift in Sources */,
 				8513FB5129B2C44B00CDC0B8 /* FactsData.swift in Sources */,
+				856B0A4229B3815500554DEA /* RecipeCardView.swift in Sources */,
+				856B0A4029B380C200554DEA /* RecipeData.swift in Sources */,
 				85FCC8E229B1707F000BE95C /* FactsView.swift in Sources */,
 				857D4AD529AFB2B400C2645F /* HeaderView.swift in Sources */,
 			);
