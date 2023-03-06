@@ -10,6 +10,8 @@
 		8513FB5129B2C44B00CDC0B8 /* FactsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513FB5029B2C44B00CDC0B8 /* FactsData.swift */; };
 		8513FB5329B2C4D000CDC0B8 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513FB5229B2C4D000CDC0B8 /* FactModel.swift */; };
 		851B813029B4DF45008A7999 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851B812F29B4DF44008A7999 /* RipeningView.swift */; };
+		853F8C3529B6ACB0009A3ECC /* RIpeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F8C3429B6ACB0009A3ECC /* RIpeningModel.swift */; };
+		853F8C3729B6ADAE009A3ECC /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853F8C3629B6ADAE009A3ECC /* RipeningData.swift */; };
 		8544B7AC29AEB74F00F8C794 /* AvocatosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544B7AB29AEB74F00F8C794 /* AvocatosView.swift */; };
 		8544B7AE29AEB78A00F8C794 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544B7AD29AEB78A00F8C794 /* RipeningStagesView.swift */; };
 		8544B7B029AEB7A200F8C794 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544B7AF29AEB7A200F8C794 /* SettingsView.swift */; };
@@ -35,6 +37,8 @@
 		8513FB5029B2C44B00CDC0B8 /* FactsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsData.swift; sourceTree = "<group>"; };
 		8513FB5229B2C4D000CDC0B8 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 		851B812F29B4DF44008A7999 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		853F8C3429B6ACB0009A3ECC /* RIpeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RIpeningModel.swift; sourceTree = "<group>"; };
+		853F8C3629B6ADAE009A3ECC /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 		8544B7AB29AEB74F00F8C794 /* AvocatosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocatosView.swift; sourceTree = "<group>"; };
 		8544B7AD29AEB78A00F8C794 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		8544B7AF29AEB7A200F8C794 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 				857D4AD829B0178400C2645F /* HeaderData.swift */,
 				8513FB5029B2C44B00CDC0B8 /* FactsData.swift */,
 				856B0A3F29B380C200554DEA /* RecipeData.swift */,
+				853F8C3629B6ADAE009A3ECC /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -84,6 +89,7 @@
 				857D4AD629B0172B00C2645F /* HeaderModel.swift */,
 				8513FB5229B2C4D000CDC0B8 /* FactModel.swift */,
 				856B0A3D29B3804E00554DEA /* RecipeModel.swift */,
+				853F8C3429B6ACB0009A3ECC /* RIpeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,6 +226,7 @@
 				8544B7AC29AEB74F00F8C794 /* AvocatosView.swift in Sources */,
 				8513FB5329B2C4D000CDC0B8 /* FactModel.swift in Sources */,
 				8544B7B229AEB7B900F8C794 /* AppView.swift in Sources */,
+				853F8C3729B6ADAE009A3ECC /* RipeningData.swift in Sources */,
 				8544B7AE29AEB78A00F8C794 /* RipeningStagesView.swift in Sources */,
 				8595916029AD7F0A0068F743 /* ContentView.swift in Sources */,
 				8595915E29AD7F0A0068F743 /* AvocadosApp.swift in Sources */,
@@ -227,6 +234,7 @@
 				85FCC8E029B168E1000BE95C /* DishesViews.swift in Sources */,
 				857D4AD729B0172B00C2645F /* HeaderModel.swift in Sources */,
 				856B0A4629B387B700554DEA /* RecipeCookingView.swift in Sources */,
+				853F8C3529B6ACB0009A3ECC /* RIpeningModel.swift in Sources */,
 				851B813029B4DF45008A7999 /* RipeningView.swift in Sources */,
 				857D4AD929B0178400C2645F /* HeaderData.swift in Sources */,
 				8513FB5129B2C44B00CDC0B8 /* FactsData.swift in Sources */,
